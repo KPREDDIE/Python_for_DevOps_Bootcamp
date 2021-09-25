@@ -3,7 +3,8 @@ install:
 	# conda update --all && conda install --yes --file requirements.txt # When using conda
 
 test:
-	python -m pytest -vv test_app.py
+	#python -m pytest -vv test_app.py
+	pytest -vv --cov-report term-missing --cov=app test_*.py
 
 format:
 	black *.py
