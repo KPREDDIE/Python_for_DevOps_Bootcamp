@@ -34,3 +34,9 @@ Python Project Recipe :
 
 - GitHub : Scaffold, MakeFile, requirements.txt, app.py, test.py
 - Build: Continuis improvements
+
+AWS:
+
+- Creating Root account + IAM MFA
+- Creating user account + MFA access
+- Setting up Cloud9
