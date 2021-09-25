@@ -1,0 +1,15 @@
+install:
+	# pip install --upgrade pi &&/
+		# pip install -r requirements.txt
+	conda update --all && conda install --yes --file requirements.txt
+
+test:
+	python -m pytest -vv test_app.py
+
+format:
+	black *.py
+
+lint:
+	pylint --disable=R,C app.py 
+
+all: install lint test
