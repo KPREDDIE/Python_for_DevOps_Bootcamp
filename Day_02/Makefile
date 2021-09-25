@@ -1,7 +1,6 @@
 install:
-	# pip install --upgrade pi &&/
-		# pip install -r requirements.txt
-	conda update --all && conda install --yes --file requirements.txt
+	pip install --upgrade pi && pip install -r requirements.txt
+	# conda update --all && conda install --yes --file requirements.txt # When using conda
 
 test:
 	python -m pytest -vv test_app.py
