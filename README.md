@@ -29,3 +29,8 @@ Which Cloud :
 From Network to DevOps :
 
 - CI/CD
+
+Python Project Recipe :
+
+- GitHub : Scaffold, MakeFile, requirements.txt, app.py, test.py
+- Build: Continuis improvements
