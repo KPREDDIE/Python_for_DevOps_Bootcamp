@@ -41,29 +41,39 @@ AWS:
 - Creating user account + MFA access
 - Setting up Cloud9
 - Generating SSH key with ssh-keygen -t rsa
-    - Adding the rsa public key to github and cloning the github repository with ssh  
-
+  - Adding the rsa public key to github and cloning the github repository with ssh
 
 GitHub:
+
 - Creating account
-- Importing ssh rsa public key 
+- Importing ssh rsa public key
 - Creating simple workfow to execute commande (like make file), in our repository : .github/workflows/pythonapp.yml
 
-Python for speed : 
+Python for speed :
+
 - Using Numba (JIT) GPU
-- Pypy 
- 
+- Pypy
 
 For requirements.txt :
+
 - After finishing all the install, use the commande pip freeze to have the exact versions and add it to the file
-- 
+-
 
 Question how to go from IT to Cloud :
-- 0 to 1 : Go to : 
+
+- 0 to 1 : Go to :
 - - https://paiml.com/ (many ressources)
 - - Learn GitHub
 - - Ressources on Coursera
-- * AWS Solutions Architect
-- * CI/CD Python 
-- * AWS Lambda
+- - AWS Solutions Architect
+- - CI/CD Python
+- - AWS Lambda
 - Triple threat - cert, portfolio, [degree], exp..
+
+# Golden Path:
+
+- GitHub Action
+- Function
+- AWS Lambda
+- Flask
+- Click
